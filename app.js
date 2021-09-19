@@ -14,7 +14,6 @@ app.get("/", function(req, res){
     });
 });
 
-
 app.get("/curriculum", function(req, res) {
     res.render("curriculum");
 });
@@ -22,26 +21,6 @@ app.get("/curriculum", function(req, res) {
 app.get("/contact", function(req, res) {
     res.render("contact");
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 app.listen(3000, function(){
     console.log("Server started on port 3000")
