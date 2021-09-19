@@ -1,0 +1,28 @@
+<%- include("partials/header"); -%>
+
+<div class="container"> 
+    <div class="image">
+        <section class="homepic">
+            <img class="firstpic" src="images/makeup.jpeg" alt="me">
+        </section>
+    </div>
+
+    <div class="hometext">
+        <h1>Olá, </h1>
+        <p> <%= startingContent %> </p>
+
+        <button onclick="redirectCurriculum()" type="button" class="btn btn-outline-dark btn-lg">CURRICULUM</button>
+        <button onclick="redirectContact()" type="button" class="btn btn-outline-dark btn-lg">CONTACT</button>
+    </div>
+</div>
+
+<script>
+    function redirectCurriculum() {
+        window.location.href="http://localhost:3000/curriculum"
+    }
+
+    function redirectContact() {
+        window.location.href="http://localhost:3000/contact"
+    }
+</script>
+
