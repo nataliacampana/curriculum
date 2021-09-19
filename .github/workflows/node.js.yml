@@ -26,4 +26,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm install
-    - run: nodemon server.js -e md, html, css, ejs
+    - run: nodemon app.js -e md, html, css, ejs
