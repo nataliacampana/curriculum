@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const ejs = require("ejs");
 
-const port = process.env.PORT;
+let port = process.env.PORT;
 if (port || port === "")
     port = 3000;
 
